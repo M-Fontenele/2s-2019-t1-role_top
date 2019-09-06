@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#top {
+    display: flex;
+    justify-content: space-between;
+    height: 2.7em;
+    background-color: #ffc600;
+    font-size: 1.5em;
+}
+
+.icon-m {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#imglogo {
+    margin-top: 7px;
+    margin-right: 20px; 
+}
+
+#logo {
+    position: relative;
+    z-index: 99999999999;
+}
+
+#login {
+    margin-right: 40px;
+}
+div > div.normal {
+    display: flex;
+    align-items: center;
+}
+/*===================================================================================================================
+                                            INICIO - NAV 
+==================================================================================================================*/
+
+.cor-lm {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    font-size: 1.5em;
+    height: 2em;
+    background-color: #7d0093;
+}
+
+nav ul > li.normal {
+    display: flex;
+    align-items: center;
+}
+
+li.normal a {
+    padding: 5px 80px;
+    border-radius: 10px
+}
+
+li.normal a:hover {
+    background: #ffc600;
+    color: #000000;
+}
+
+.parte {
+    width: 500px;
+    position: relative;
+    border-top: 1.95em solid #ffc600;
+    border-left: 2em solid transparent;
+    border-right: 2em solid transparent;
+}
+
+.parte1 {
+    width: 407px;
+    position: relative;
+    height: 0.1em;
+    border: 0.1em solid #ffc600;
+    border-radius: 0 0 50px 50px;
+    left: 46.5px;
+    top: -3.5px;
+}
+
+
+
+/*===================================================================================================================
+                                                 FIM - NAV 
+==================================================================================================================*/
+
+
+/*===================================================================================================================
+                                                 INICIO - CADASTRO 
+==================================================================================================================*/
+body {
+    background: #ffc600;
+    text-align: center;
+}
+main {
+    width: 40%;
+    align-self: center;
+}
