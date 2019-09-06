@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rolêtop</title>
+    <link rel="stylesheet" href="login.css">
+
+</head>
+<body>
+    <header>
+        <div id="top">
+                <div id="menu-r" class="normal"><input type="checkbox" id="bt-menu">
+                <label for="bt-menu" class="icon-m">&#9776</label></div>
+                <div id="imglogo"><img src="img/logo-1-peq.png" width="130em" id="logo"/></div>
+                <div id="login" class="normal"><a href="login-cadastro.html" class="cor-lm">Login</a></div>
+            </div>        
+        <nav id="menu">
+            <ul>
+                <li class="normal"><a href="index.html" class="cor-lm">Home</a></li>
+                <li class="normal"><a href="faq.html" class="cor-lm">FAQ</a></li>
+                <li><div class="parte"></div><div class="parte1"></div></li>
+                <li class="normal"><a href="agende.html" class="cor-lm">Agende já</a></li>
+                <li class="normal"><a href="galeria.html" class="cor-lm">Galeria</a></li>
+            </ul>
+        </nav>
+               
+    </header>
+
+    <main>
+        <section>
+                <form method="GET" action="index.html">
+
+                    <div>
+
+                        <h2>Login</h2>
+
+                        <div>
+
+                            <label for="email-login">E-mail</label>
+                            <input id="email-login" type="email" maxlength="50" required>
+
+                        </div>
+                        <div>
+
+                            <label for="senha">Senha</label>
+                            <input id="senha" type="password" required>
+
+                        </div>
+
+                        <input type="submit" value="Entrar">
+
+                    </div>
+
+                </form>
+
+                <div> Ou </div>
+
+                <form method="GET" action="index.html">
+
+                    <div>
+
+                        <h2>Criar conta</h2>
+
+                        <div>
+                            <label for="nome-c">Nome completo</label>
+                            <input id="nome-c" type="text" maxlength="50" required>
+                        </div>
+                        <div>
+                            <label for="senha-c">Senha</label>
+                            <input id="senha-c" type="password" required>
+                        </div>
+                        <div>
+                            <label for="repeat-senha-c">Repetir Senha</label>
+                            <input id="repeat-senha-c" type="password" required>
+                        </div>
+
+                        <div>
+                            <label for="email-c">E-mail</label>
+                            <input id="email-c" type="email" required>
+                        </div>
+                        <div>
+                            <label for="repeat-email-c">Repetir E-mail</label>
+                            <input id="repeat-email-c" type="email" required>
+                        </div>
+                        <div>
+                            <label for="cpf-cnpj">CPF ou CNPJ</label>
+                            <input id="cpf-cnpj" type="text" required>
+                        </div>
+                        <div>
+                            <label for="nascimento">Data de nascimento</label>
+                            <input id="nascimento" type="date" max="2019-09-06" min="1880-01-01">
+                        </div>
+
+                        <div>
+                            <label for="telefone">Telefone</label>
+                            <input type="text" maxlength="">
+                        </div>
+
+                    </div>
+
+                </form>
+
+        </section>
+    </main>
+
+</body>
+</html>
