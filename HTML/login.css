@@ -48,7 +48,7 @@ nav ul {
     justify-content: space-around;
     font-size: 1.5em;
     height: 2em;
-    background-color: #7d0093;
+    background-color: #470054;
 }
 
 nav ul > li.normal {
@@ -90,14 +90,18 @@ li.normal a:hover {
                                                  FIM - NAV 
 ==================================================================================================================*/
 #divisao {
-    height: 1px;
-    background-color: #7d0093;
+    height: 2px;
+    background-color: #470054;
+}
+#divisao-1 {
+    height: 2px;
+    background-color: #000000;
 }
 /*===================================================================================================================
                                                  INICIO - LOGIN 
 ==================================================================================================================*/
 body {
-    background-color: #ffc600;
+    background-color: #7d0093;
 }
 main {
     display: flex;
@@ -113,6 +117,7 @@ main {
     display: flex;
     flex-direction: column;
     font-size: 20px;
+    color: #ffffff;
 }
 .informacao > input {
     height: 2em;
@@ -127,6 +132,8 @@ main {
 #ou {
     display: flex;
     align-items: center;
+    padding: 50px;
+    color: #ffffff;
 }
 
 section {
@@ -141,6 +148,7 @@ h2 {
     justify-content: center;
     font-size: 2em;
     padding: 10px 0;
+    color: #ffffff;
 }
 /*===================================================================================================================
                                                  FIM - LOGIN 

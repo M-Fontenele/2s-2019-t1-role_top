@@ -106,4 +106,164 @@ li.normal a:hover {
         align-items: center;
 }
 
+/*===================================================================================================================
+                                                FIM - BANNER 
+ ==================================================================================================================*/
 
+
+
+
+ /*===================================================================================================================
+                                                INICIO - CALENDARIO 
+ ==================================================================================================================*/
+#area-do-calendario {
+        background-color: #7d0093;
+}
+
+
+
+.text-comeco-calendario {
+        margin: 10px;
+        font-size: 1.5em;
+}
+
+.mes {
+        display: flex;
+        justify-content: center;
+}
+
+.text-mes {
+        margin: 10px 30px;
+        font-size: 1.4em;
+}
+
+/* calendario tabela */
+
+ #calendario-tabela {
+        display: flex;
+        justify-content: center;
+}
+table {
+        text-align: center;
+        width: 700px;
+        height: 400px;
+        margin: 5px;
+        background-color: #000000;
+}
+
+th {
+        background-color: #ffffff;
+}
+
+td {
+        background-color: #ffffff;
+}
+/* legenda tabela */
+
+#legenda-do-calendario {
+        display: flex;
+        justify-content: center;
+}
+
+#legenda-1 {
+        display: flex;
+        margin: 10px 40px;
+}
+
+.quadrado {
+        background: #7d0093;
+        width: 20px;
+        height: 20px;
+        border: 2px solid #000000;
+}
+
+.text-legend {
+        font-size: 1.2em;
+        padding: 0 10px;
+}
+
+#legenda-2 {
+        display: flex;
+        margin: 10px 40px;
+}
+
+.quadrado-1 {
+        background-color: #ffffff;
+        width: 20px;
+        height: 20px;
+        border: 2px solid #000000;
+}
+
+
+ /*===================================================================================================================
+                                                FIM - CALENDARIO 
+ ==================================================================================================================*/
+
+
+/*===================================================================================================================
+                                                INICIO - MAPA 
+ ==================================================================================================================*/
+#area-do-mapa {
+        background-color: #7d0093;
+}
+
+ #mapa {
+         display: flex;
+         justify-content: center;
+         padding: 10px;
+ }
+
+ #mapa-endereco {
+         display: flex;
+         justify-content: center;
+         padding: 10px 0;
+         font-size: 1.3em;
+ }
+ #icon-maps {
+         color: #000000;
+         padding: 0 10px;
+ }
+
+/*===================================================================================================================
+                                                FIM - MAPA 
+ ==================================================================================================================*/
+
+
+/*===================================================================================================================
+                                                INICIO - FOOTER 
+ ==================================================================================================================*/
+
+ footer {
+         background-color: #000000;
+         display: flex;
+         justify-content: space-around;
+ }
+
+ #icon-tel {
+         color: #ffffff;
+         padding: 10px;
+         display: flex;
+         align-items: center;
+ }
+
+ #icon-email {
+         color: #ffffff;
+         padding: 10px;
+         display: flex;
+         align-items: center;
+ }
+
+ #icon-face {
+         color: #ffffff;
+         padding: 10px;
+         display: flex;
+         align-items: center;
+ }
+
+ .rodape-text {
+         padding: 10px;
+ }
+
+ /*===================================================================================================================
+                                                FIM - FOOTER 
+ ==================================================================================================================*/
