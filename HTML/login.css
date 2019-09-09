@@ -89,3 +89,59 @@ li.normal a:hover {
 /*===================================================================================================================
                                                  FIM - NAV 
 ==================================================================================================================*/
+#divisao {
+    height: 1px;
+    background-color: #7d0093;
+}
+/*===================================================================================================================
+                                                 INICIO - LOGIN 
+==================================================================================================================*/
+body {
+    background-color: #ffc600;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+#meio {
+    width: 800px;
+    background-color: #7d0093;
+}
+
+.informacao {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+.informacao > input {
+    height: 2em;
+    width: 300px;
+
+}
+
+#date {
+    height: 2em;
+}
+
+#ou {
+    display: flex;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+    margin: 2px 0;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    padding: 10px 0;
+}
+/*===================================================================================================================
+                                                 FIM - LOGIN 
+==================================================================================================================*/

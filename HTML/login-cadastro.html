@@ -27,22 +27,22 @@
         </nav>
                
     </header>
-
+    <div id="divisao"></div>
     <main>
-        <section>
+        <section id="meio">
                 <form method="GET" action="index.html">
 
                     <div>
 
                         <h2>Login</h2>
 
-                        <div>
+                        <div class="informacao">
 
                             <label for="email-login">E-mail</label>
                             <input id="email-login" type="email" maxlength="50" required>
 
                         </div>
-                        <div>
+                        <div class="informacao">
 
                             <label for="senha">Senha</label>
                             <input id="senha" type="password" required>
@@ -55,47 +55,68 @@
 
                 </form>
 
-                <div> Ou </div>
+                <div id="ou"> Ou </div>
 
                 <form method="GET" action="index.html">
 
                     <div>
 
-                        <h2>Criar conta</h2>
+                        <h2 id="titulo">Criar conta</h2>
 
-                        <div>
+                        <div class="informacao">
+
                             <label for="nome-c">Nome completo</label>
                             <input id="nome-c" type="text" maxlength="50" required>
+
                         </div>
-                        <div>
+
+                        <div class="informacao">
+
                             <label for="senha-c">Senha</label>
                             <input id="senha-c" type="password" required>
+
                         </div>
-                        <div>
+
+                        <div class="informacao">
+
                             <label for="repeat-senha-c">Repetir Senha</label>
                             <input id="repeat-senha-c" type="password" required>
+
                         </div>
 
-                        <div>
+                        <div class="informacao">
+
                             <label for="email-c">E-mail</label>
                             <input id="email-c" type="email" required>
+
                         </div>
-                        <div>
+                        
+                        <div class="informacao">
+
                             <label for="repeat-email-c">Repetir E-mail</label>
                             <input id="repeat-email-c" type="email" required>
-                        </div>
-                        <div>
-                            <label for="cpf-cnpj">CPF ou CNPJ</label>
-                            <input id="cpf-cnpj" type="text" required>
-                        </div>
-                        <div>
-                            <label for="nascimento">Data de nascimento</label>
-                            <input id="nascimento" type="date" max="2019-09-06" min="1880-01-01">
+
                         </div>
 
-                        <div>
+                        <div class="informacao">
+
+                            <label for="cpf-cnpj">CPF ou CNPJ</label>
+                            <input id="cpf-cnpj" type="text" required>
+
+                        </div>
+
+                        <div class="informacao">
+                            
+                            <label for="date">Data de nascimento</label>
+                            <input id="date" type="date" max="2019-10-09" min="1880-01-01">
+
+                        </div>
+
+                        <div class="informacao">
+
                             <label for="telefone">Telefone</label>
-                            <input type="text" maxlength="">
+                            <input id="telefone" type="tel" maxlength="11" placeholder="(xx) xxxxx-xxxx" required>
+
                         </div>
 
                     </div>
