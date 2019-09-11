@@ -186,4 +186,42 @@ td {
         .text-botao {
                 font-size: 1em;
         }
+
+        .texto-banner {
+                background-image: url(img/banner1-editado.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 400px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+        }
+ }
+
+ @media (max-width: 800px) {
+        .texto-banner {
+                background-image: url(img/banner1-editado.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 200px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+        }
+ }
+
+ @media (max-width: 400px) {
+        .texto-banner {
+                background-image: url(img/banner1-editado.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 120px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                font-size: 12px;
+        }
  }
