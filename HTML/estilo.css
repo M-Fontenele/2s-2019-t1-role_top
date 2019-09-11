@@ -180,3 +180,10 @@ td {
         text-decoration: none;
         color: #000000;
  }
+
+
+ @media (max-width: 1250px) {
+        .text-botao {
+                font-size: 1em;
+        }
+ }

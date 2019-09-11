@@ -12,6 +12,13 @@
     font-size: 1.5em;
 }
 
+#bt-menu {
+    display: none;
+}
+label[for="bt-menu"]{
+    visibility: hidden;
+}
+
 .icon-m {
     margin-left: 20px;
 }
@@ -49,6 +56,7 @@ nav ul {
     font-size: 1.5em;
     height: 2em;
     background-color: #470054;
+    width: 100%
 }
 
 nav ul > li.normal {
@@ -57,7 +65,6 @@ nav ul > li.normal {
 }
 
 li.normal a {
-    padding: 5px 80px;
     border-radius: 10px
 }
 
@@ -84,6 +91,10 @@ li.normal a:hover {
     top: -3.5px;
 }
 
+header{
+    width: 100%;
+}
+
 
 
 /*===================================================================================================================
@@ -96,4 +107,73 @@ li.normal a:hover {
 #divisao-1 {
     height: 2px;
     background-color: #000000;
+}
+
+
+@media (max-width: 1250px){
+    .parte {
+        width: 300px;
+        position: relative;
+        border-top: 1.95em solid #ffc600;
+        border-left: 2em solid transparent;
+        border-right: 2em solid transparent;
+    }
+    
+    .parte1 {
+        width: 208px;
+        position: relative;
+        height: 0.1em;
+        border: 0.1em solid #ffc600;
+        border-radius: 0 0 50px 50px;
+        left: 46.5px;
+        top: -3.5px;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 700px) {
+    label[for="bt-menu"]{
+        display: block;
+    }
+
+    nav ul {
+        font-size: 0.7em;
+
+    }
+
+    #top {
+        height: 1.8em;
+        font-size: 0.8em;
+    }
+
+    #logo {
+        width: 3.5em;   
+    }
+
+    #imglogo {
+        margin-top: 0;
+        margin-right: 0; 
+    }
+
+    .parte {
+        width: 200px;
+        position: relative;
+        border-top: 1.95em solid #ffc600;
+        border-left: 2em solid transparent;
+        border-right: 2em solid transparent;
+    }
+    
+    .parte1 {
+        width: 110px;
+        position: relative;
+        height: 0.1em;
+        border: 0.1em solid #ffc600;
+        border-radius: 0 0 50px 50px;
+        left: 46.5px;
+        top: -3.5px;
+    }
 }

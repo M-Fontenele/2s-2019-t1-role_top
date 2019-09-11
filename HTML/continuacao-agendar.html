@@ -36,67 +36,50 @@
         <main>
             <section id="meio" class="agende">
                 <h2 id="titulo"><strong> Agende-já </strong></h2>
-                <form method="GET" action="continuacao-agendar.html">
+                <form method="GET" action="index.html">
                     <div class="informacao">
 
-                        <label for="nome-do-evento">Nome do evento</label>
-                        <input id="nome-do-evento" type="text" maxlength="30" minlength="3" autofocus required>
+                        <label for="nome-do-usuario">Nome Completo</label>
+                        <input id="nome-do-usuario" type="text" maxlength="30" minlength="3" autofocus required>
                     
                     </div>
 
-                    <br />
+                    <br>
 
                     <div class="informacao">
 
-                        <label for="tipo-de-evento">Tipo de evento</label>
-                        <select id="tipo-de-evento" required>
-                            <option value="" disabled selected>Selecione</option>
-                            <option value="casamento">Casamento</option>
-                            <option value="baladas">Baladas</option>
-                            <option value="outros-eventos">Outros eventos</option>
-                        </select>
+                        <label for="cpf">CPF</label>
+                        <input id="cpf" type="text" maxlength="30" minlength="3" autofocus required>
+                    
+                    </div>
+
+                    <br>
+                    
+                    <div class="informacao">
+
+                            <label for="numero">Número</label>
+                            <input id="numero" type="text" maxlength="30" minlength="3" autofocus required>
+                        
+                        </div>
+
+                    <br />
                     
                     </div >
-                    <br />
-                    <div class="informacao">
-
-                        <label for="outros-eventos-s">Escreva o tipo de evento<p>(Caso tenha selecionado outros eventos)</p></label>
-                        <input id="outros-eventos-s" type="text" maxlength="15" />
-                    
-                    </div>
 
                     <br />
 
-                    <div class="informacao">
-
-                        <label for="plano-de-evento">Plano de evento</label>
-                        <select id="plano-de-evento" required>
-                            <option value="" disabled selected>Selecione</option>
-                            <option value="salao">Somente Salão</option>
-                            <option value="salao-iluminação">Salão e Iluminação</option>
-                            <option value="salao-som">Salão e Som</option>
-                            <option value="salao-luz-e-som">Salão Iluminação e Som</option>
-                        </select>
-                    
-                    </div>
-
-                    <br />
 
                     <div class="informacao">
 
-                        <label for="date">Data de evento</label>
+                        <label for="date">Anisversario</label>
                         <input id="date" type="date" min="2019-09-10" max="2021-01-01" required>
 
                     </div>
 
                     <br />
                     
-                    <div class="n-info">
-                        <label for="descricao">Descrição do evento</label>
-                        <input id="descricao" type="text" required>
-                    </div>
                     <div id="finalizar-agendamento">
-                        <input class="botao" type="submit" value="Continuar">
+                        <input class="botao" type="submit" value="Agendar">
                     </div>
                 </form>
 
