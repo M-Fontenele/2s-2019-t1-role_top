@@ -15,9 +15,9 @@
     height: 2.5em;
     align-items: center;
 }
-/* body {
+body {
     background-image: linear-gradient(to bottom, #ffc600, #7d0093)
-} */
+}
 
 .info-a {
     text-decoration: none;
@@ -63,8 +63,44 @@ div.info-b-1 :hover {
 
 }
 
+
 /* table */
+#pedidos-table {
+    display: flex;
+    align-items: center;
+    margin: 20px 0 0 0;
+    flex-direction: column;
+}
 
 table {
     background-color: #000000;
+}
+
+th {
+    background-color: #7d0093;
+    font-size: 1.2em;
+}
+td {
+    background-color: #7d0093;
+    padding: 5px 10px;
+    font-size: 1.1em;
+}
+
+.verde {
+    color: rgb(0, 243, 0);
+}
+.vermelho {
+    color: red;
+}
+.amarelo {
+    color: yellow;
+}
+
+#botao-agende {
+    font-size: 1.4em;
+    border: solid #000000;
+    margin: 10px 0 0 0;
+    border-radius: 10px;
+    background-color: #ffc600;
+    padding: 2px 10px;
 }
